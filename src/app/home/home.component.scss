@@ -1,0 +1,16 @@
+/* :host {
+  .tiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .card-body {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+ */

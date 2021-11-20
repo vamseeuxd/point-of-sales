@@ -1,0 +1,76 @@
+<nav class="navbar navbar-dark bg-danger fixed-top shadow">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/home">Point Of Sales</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+          Point Of Sales
+        </h5>
+        <button
+          type="button"
+          class="btn-close text-reset btn-sm"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-group rounded-0">
+          <li
+            role="button"
+            routerLinkActive="list-group-item-danger"
+            routerLink="/home"
+            class="list-group-item rounded-0 list-group-item-action"
+          >
+            Home
+          </li>
+          <li
+            role="button"
+            routerLinkActive="list-group-item-danger"
+            routerLink="/tables"
+            class="list-group-item rounded-0 list-group-item-action"
+          >
+            Manage Tables
+          </li>
+          <li
+            role="button"
+            routerLinkActive="list-group-item-danger"
+            routerLink="/products"
+            class="list-group-item rounded-0 list-group-item-action"
+          >
+            Manage Products
+          </li>
+          <li
+            role="button"
+            routerLinkActive="list-group-item-danger"
+            routerLink="/prices"
+            class="list-group-item rounded-0 list-group-item-action"
+          >
+            Manage Prices
+          </li>
+          <li
+            role="button"
+            routerLinkActive="list-group-item-danger"
+            routerLink="/orders"
+            class="list-group-item rounded-0 list-group-item-action"
+          >
+            Manage Orders
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
